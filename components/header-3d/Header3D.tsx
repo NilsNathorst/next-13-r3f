@@ -68,7 +68,7 @@ function Boxes() {
   return (
     <>
       {blocks.map((d, index) => (
-        <Box springs={springs} index={index} />
+        <Box springs={springs} index={index} key={index} />
       ))}
     </>
   );
